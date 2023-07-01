@@ -23,7 +23,7 @@
   );
 }
 
-.gradient,
+ .gradient,
 .active {
   background: linear-gradient(
     92.23deg,
@@ -63,9 +63,19 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] hover:from-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
+}
+input,
+textarea {
+  @apply bg-gray-700 outline-none rounded-lg p-3
+}
+::placeholder {
+  @apply text-lg
+}
+::selection {
+  @apply bg-cyan-600
 }

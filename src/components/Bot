@@ -1,0 +1,11 @@
+// import React from 'react';
+// import { IoChatbubbleEllipses } from 'react-icons/io5';
+// const Bot = () => {
+//   return (
+//     <div className="fixed bottom-5 right-4 z-[999] cursor-pointer text-white text-4xl">
+//     {/* <icon-icon name = "chatbubble-ellipses><icon-icon/> */}
+//     <IoChatbubbleEllipses className="text-4xl" />
+//     </div>);
+// };
+
+// export default Bot;
